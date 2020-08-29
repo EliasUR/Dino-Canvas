@@ -1,0 +1,54 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+#textContainer{
+    width: 600px;
+}
+
+h1 {
+    color: rgb(32 33 36 / 1);
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+p {
+    color: rgb(95 99 104);
+    font-size: 1em;
+    line-height: 1.55;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+}
+
+li {
+    color: rgb(95 99 104);
+    font-size: 1em;
+    line-height: 1.55;
+}
+
+a {
+    color: rgb(26 115 232);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+#err {
+    color: rgb(95 99 104);
+    font-size: .8em;
+}
+
+canvas{
+    width: 600;
+    height: 150;
+    /* background-color: rgb(1, 2, 14); */
+    /* border: 1px solid black; */
+}
