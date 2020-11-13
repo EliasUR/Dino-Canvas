@@ -55,6 +55,7 @@ function initCanvas() {
     document.onkeydown = handleKeyDown;
     document.onkeyup = handleKeyUp;
     document.getElementById('canvas').onmousedown = jump;
+    document.getElementById('canvas').ontouchstart = jump;
 
     loop();
     spriteAnimations();
